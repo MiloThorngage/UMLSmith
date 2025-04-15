@@ -3,7 +3,7 @@
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/merlijnbraam/Documents/GitHub/UMLSmith/demo/target/test-classes:/Users/merlijnbraam/Documents/GitHub/UMLSmith/demo/target/classes:/Users/merlijnbraam/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/merlijnbraam/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/merlijnbraam/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/merlijnbraam/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/merlijnbraam/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/Users/merlijnbraam/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/Users/merlijnbraam/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:"/>
+    <property name="java.class.path" value="/Users/merlijnbraam/Documents/GitHub/UMLSmith/demo/target/test-classes:/Users/merlijnbraam/Documents/GitHub/UMLSmith/demo/target/classes:/Users/merlijnbraam/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/merlijnbraam/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/merlijnbraam/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/merlijnbraam/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/merlijnbraam/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/Users/merlijnbraam/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/merlijnbraam/Documents/GitHub/UMLSmith/demo/target/surefire/surefirebooter-20250415213257986_3.jar /Users/merlijnbraam/Documents/GitHub/UMLSmith/demo/target/surefire 2025-04-15T21-32-57_934-jvmRun1 surefire-20250415213257986_1tmp surefire_0-20250415213257986_2tmp"/>
+    <property name="sun.java.command" value="/Users/merlijnbraam/Documents/GitHub/UMLSmith/demo/target/surefire/surefirebooter-20250415230325338_3.jar /Users/merlijnbraam/Documents/GitHub/UMLSmith/demo/target/surefire 2025-04-15T23-03-25_293-jvmRun1 surefire-20250415230325338_1tmp surefire_0-20250415230325338_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/merlijnbraam/Documents/GitHub/UMLSmith/demo/target/test-classes:/Users/merlijnbraam/Documents/GitHub/UMLSmith/demo/target/classes:/Users/merlijnbraam/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/merlijnbraam/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/merlijnbraam/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/merlijnbraam/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/merlijnbraam/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/Users/merlijnbraam/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/Users/merlijnbraam/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/merlijnbraam/Documents/GitHub/UMLSmith/demo/target/test-classes:/Users/merlijnbraam/Documents/GitHub/UMLSmith/demo/target/classes:/Users/merlijnbraam/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/merlijnbraam/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/merlijnbraam/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/merlijnbraam/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/merlijnbraam/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/Users/merlijnbraam/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/merlijnbraam"/>
     <property name="user.language" value="en"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/merlijnbraam/Documents/GitHub/UMLSmith/demo/target/surefire/surefirebooter-20250415213257986_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/merlijnbraam/Documents/GitHub/UMLSmith/demo/target/surefire/surefirebooter-20250415230325338_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.2"/>
@@ -58,7 +58,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testCheckOsMac" classname="com.example.checkOsTest" time="0.018"/>
-  <testcase name="testCheckOsWindows" classname="com.example.checkOsTest" time="0.001"/>
-  <testcase name="testCheckOsLinux" classname="com.example.checkOsTest" time="0.0"/>
+  <testcase name="testCheckOsMac" classname="com.example.checkOsTest" time="0.017"/>
+  <testcase name="testCheckOsWindows" classname="com.example.checkOsTest" time="0.002"/>
+  <testcase name="testCheckOsLinux" classname="com.example.checkOsTest" time="0.001"/>
 </testsuite>

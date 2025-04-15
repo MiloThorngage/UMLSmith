@@ -16,7 +16,7 @@ class WindowsHandler implements OSHandler {
         String tesseract = scanner.nextLine();
         if (tesseract.equalsIgnoreCase("n")) {
             System.out.println("Please install Tesseract before running this program.");
-            System.out.println("https://tesseract-ocr.github.io/tessdoc/Installation.html");
+            System.out.println("https://github.com/UB-Mannheim/tesseract/wiki");
             System.exit(0);
         }
     }
@@ -27,7 +27,7 @@ class MacHandler implements OSHandler {
     @Override
     public void handleOS(Scanner scanner) {
         System.out.println("You are running macOS.");
-        System.out.println("Do you want to install Tesseract (requires HomeBrew)? y/n");
+        System.out.println("Do you want to install Tesseract OCR (requires HomeBrew)? y/n");
         String tesseract = scanner.nextLine();
         if (tesseract.equalsIgnoreCase("y")) {
             try {
@@ -53,7 +53,7 @@ class LinuxHandler implements OSHandler {
     @Override
     public void handleOS(Scanner scanner) {
         System.out.println("You are running Linux.");
-        System.out.println("Do you want to install Tesseract? y/n");
+        System.out.println("Do you want to install Tesseract OCR? y/n");
         String tesseract = scanner.nextLine();
         if (tesseract.equalsIgnoreCase("y")) {
             try {

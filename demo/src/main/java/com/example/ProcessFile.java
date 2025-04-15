@@ -1,7 +1,6 @@
 package com.example;
 import java.io.*;
 import java.nio.file.*;
-import java.io.FileWriter;
 import java.util.regex.*;
 
 public class ProcessFile {
@@ -11,7 +10,7 @@ public class ProcessFile {
         try {
             ProcessBuilder processBuilder = new ProcessBuilder(); // Create a new process builder to do a command in terminal
             processBuilder.command("tesseract", filename, Main.outputname); // makes command "tesseract " + filename + " " + outputname
-
+            
             // Redirect error stream to capture potential issues
             processBuilder.redirectErrorStream(true); // Redirects error stream to the output stream of the code
             Process process = processBuilder.start(); // runs the built command in Terminal
