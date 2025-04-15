@@ -1,0 +1,19 @@
+Website
+
+- url : String
+- aantalPaginas : int
+- beschrijving : String
+
++ Website(url : String, aantalPaginas : int, beschrijving : String)
+
++ getUrl() : String
+
++ getAantalPaginas() : int
+
++ getBeschrijving() : String
+
++ setUrl(url : String)
+
++ setAantalPaginas(aantalPaginas : int)
++ setBeschrijving(beschrijving : String)
+

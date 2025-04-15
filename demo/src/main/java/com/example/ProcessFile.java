@@ -25,6 +25,7 @@ public class ProcessFile {
 
             int exitCode = process.waitFor(); //exits terminal with the exit code of the command
             System.out.println("Exited with code: " + exitCode); 
+            
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();//prints out the error message if there is an error
         }
@@ -101,15 +102,16 @@ public class ProcessFile {
                     
                     if (matcher.group(3) != null && matcher.group(1).toLowerCase() != className.toLowerCase()) {  // Return type for variables
                         String returnType = matcher.group(3); // Return type
-                        if(returnType.toLowerCase().equals("str")){
+                        if(returnType.toLowerCase().equals("str") || returnType.toLowerCase().equals("string")){
                             returnType = "String";
                         }
-                        else if(returnType.toLowerCase().equals("bool")){
+                        else if(returnType.toLowerCase().equals("bool") || returnType.toLowerCase().equals("boolean")){
                             returnType = "boolean";
                         }
-                        else if(returnType.toLowerCase().equals("integer")){
+                        else if(returnType.toLowerCase().equals("integer") || returnType.toLowerCase().equals("int")){
                             returnType = "int";
                         }
+                        
  
                         writerHelper.write(returnType + " ");
                     }
@@ -152,9 +154,8 @@ public class ProcessFile {
         }
     }
 
-    /**
-     * Helper class to handle FileWriter operations with a single try-catch block.
-     */
+    //Helper class to handle FileWriter operations with a single try-catch block.
+     
     static class FileWriterHelper {
         private final FileWriter writer;
 
